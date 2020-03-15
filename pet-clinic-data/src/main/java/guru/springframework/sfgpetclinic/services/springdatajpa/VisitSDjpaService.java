@@ -11,7 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Service
-@Profile("springdatajap")
+@Profile("springdatajpa")
 public class VisitSDjpaService implements VisitService {
 
     private final VisitRepository visitRepository;
