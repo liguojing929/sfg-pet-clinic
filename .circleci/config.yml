@@ -12,3 +12,8 @@ general:
   branches:
     only:
       - master
+
+jobs:
+  build:
+    steps:
+      - run: mvn install
